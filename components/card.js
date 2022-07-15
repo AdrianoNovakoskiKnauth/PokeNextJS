@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Styles from '../../styles/card.module.css'
+import Styles from '../styles/card.module.css'
 
 
 export default function Card({ pokemon }) {

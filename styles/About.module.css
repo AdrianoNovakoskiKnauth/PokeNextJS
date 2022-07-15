@@ -1,5 +1,9 @@
 .about {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
 }
 
 .about h1 {
@@ -9,4 +13,8 @@
 
 .about p {
     margin-bottom: 1.5em;
+}
+
+.about div {
+    margin-bottom: 1em;
 }
