@@ -125,3 +125,14 @@
   .data_height {
     border-right: 1px solid #ccc ;
   }
+
+  .carrgando {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.8em;
+    color: rgb(219, 0, 0);
+    height: 200px;
+  }
