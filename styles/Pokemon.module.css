@@ -126,6 +126,12 @@
     border-right: 1px solid #ccc ;
   }
 
+  .btn_voltar a{
+    text-decoration: none;
+    color: #E33d33;
+    font-size: 1.2em;
+  }
+
   .carrgando {
     display: flex;
     align-items: center;

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Styles from '../../styles/Pokemon.module.css'
 
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 export const getStaticPaths = async() => {
 
@@ -76,6 +77,9 @@ export default function Pokemon({ pokemon }) {
                     <h4>Peso:</h4>
                     <p>{pokemon.weight / 10 } kg</p>
                 </div>
+            </div>
+            <div className={Styles.btn_voltar}>
+                <Link href='/'><a>Voltar</a></Link>
             </div>
         </div>
         
